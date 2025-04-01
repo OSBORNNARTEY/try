@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Efiewura</title>
+    <link rel="icon" href="complete.png" type="image/png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(90deg, #ffffff, #008CBA);
+            color: black;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .logo img {
+            height: 40px;
+            width: 40px;
+            margin-right: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ffdd40;
+        }
+
+        .about-section {
+            padding: 4rem 2rem;
+            text-align: center;
+            background-color: white;
+        }
+
+        .about-section h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #4CAF50;
+        }
+
+        .about-section img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-section p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: auto;
+            color: #555;
+        }
+
+        .values-section {
+            background: #f9f9f9;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .values-section h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            color: #008CBA;
+        }
+
+        .values-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .value-box {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .value-box:hover {
+            transform: translateY(-5px);
+        }
+
+        .value-box h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: #4CAF50;
+        }
+        
+        .video-section {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: #ffffff;
+        }
+
+        .video-section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #FF5733;
+        }
+
+        .video-container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            padding: 1.5rem 2rem;
+            text-align: center;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="complete.png" alt="Efiewura Logo">
+            Efiewura
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="products.html">Products</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about-section">
+        <h1>Smart Home Solutions</h1>
+        <img src="efiewura.jpg" alt="Efiewura Smart Home">
+        <p>Efiewura is an innovative smart home system designed to automate household functions seamlessly. Our cutting-edge technology makes homes safer, more efficient, and user-friendly. With a focus on reliability and security, we ensure that smart living is accessible to everyone.</p>
+    </section>
+
+    <section class="values-section">
+        <h2>Core Technologies</h2>
+        <div class="values-container">
+            <div class="value-box">
+                <h3>Arduino Uno</h3>
+                <p>The backbone of our automation system, allowing seamless device communication.</p>
+            </div>
+            <div class="value-box">
+                <h3>Standard Firmata</h3>
+                <p>Enabling real-time control and communication between smart devices.</p>
+            </div>
+            <div class="value-box">
+                <h3>LEDs & Motors</h3>
+                <p>Providing enhanced visibility, energy efficiency, and smart movement control.</p>
+            </div>
+            <div class="value-box">
+                <h3>Plaster Boards</h3>
+                <p>Integrated seamlessly for a modern, aesthetically pleasing smart home setup.</p>
+            </div>
+        </div>
+    </section>
+    <section class="video-section">
+        <h2>Why Choose Efiewura?</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/SQUD3oIKK_Q" frameborder="0" allowfullscreen></iframe>
+            <p>Discover the benefits of our smart home solutions in this informative video.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Optimus Technology. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
